@@ -188,7 +188,8 @@ public class MSButton
         }
     }
     public void draw () 
-    {    
+    { 
+        stroke(246, 255, 212);
         if (flagged)
             fill(0);
         else if( clicked && mines.contains(this) ) 
